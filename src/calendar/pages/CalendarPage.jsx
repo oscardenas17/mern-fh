@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const CalendarPage = () => {
-  return <div>CalendarPage</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };
 
 export default CalendarPage;
